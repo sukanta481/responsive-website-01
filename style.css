@@ -178,3 +178,67 @@
 .w50:nth-child(2) {
   margin-right: 0;
 }
+.clients {
+  background: #162c3b;
+  text-align: center;
+  padding: 100px;
+}
+.clients .imgBx {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.clients .imgBx img {
+  max-width: 120px;
+  margin: 20px;
+  opacity: 0.25;
+}
+.clients .imgBx img:hover {
+  opacity: 1;
+}
+.testimonial{
+  background: #162c3b;
+  padding: 100px;
+  text-align: center;
+  position: relative;
+}
+.testimonial .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.testimonial .container .contentBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 550px;
+  padding: 60px 50px;
+  text-align: left;
+}
+.testimonial .container .contentBox .clientImg{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+.testimonial .container .contentBox .clientImg img{
+  width: 100%;
+  border-radius: 50%;
+}
+.testimonial .container .contentBox p{
+  font-style: italic;
+}
+.testimonial .container .contentBox h3{
+  width: 100%;
+  text-align: right;
+  font-weight: 500;
+
+}
+.contact{
+  background: #162c3b;
+}
