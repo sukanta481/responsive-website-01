@@ -198,13 +198,13 @@
 .clients .imgBx img:hover {
   opacity: 1;
 }
-.testimonial{
+.testimonial {
   background: #162c3b;
   padding: 100px;
   text-align: center;
   position: relative;
 }
-.testimonial .container{
+.testimonial .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -223,7 +223,7 @@
   margin-bottom: 20px;
   border-radius: 15px;
 }
-.testimonial .container .contentBox .clientImg{
+.testimonial .container .contentBox .clientImg {
   position: relative;
   top: 0;
   left: 0;
@@ -233,21 +233,28 @@
   overflow: hidden;
   margin-bottom: 25px;
 }
-.testimonial .container .contentBox .clientImg img{
+.testimonial .container .contentBox .clientImg img {
   position: absolute;
 
   width: 100%;
   height: 100%;
 }
-.testimonial .container .contentBox p{
+.testimonial .container .contentBox p {
   font-style: italic;
 }
-.testimonial .container .contentBox h3{
+.testimonial .container .contentBox h3 {
   width: 100%;
   text-align: right;
   font-weight: 500;
-
 }
-.contact{
+.contact {
   background: #162c3b;
+  padding: 100px;
+  text-align: center;
+}
+.imgBx2 {
+  background: url(team.png);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
 }
