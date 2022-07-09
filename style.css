@@ -216,19 +216,28 @@
   justify-content: center;
   align-items: center;
   background: #fff;
-  width: 550px;
-  padding: 60px 50px;
+  width: 45%;
+  padding: 40px 85px;
   text-align: left;
+  margin: 0 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 .testimonial .container .contentBox .clientImg{
   position: relative;
   top: 0;
   left: 0;
-  width: 100px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 25px;
 }
 .testimonial .container .contentBox .clientImg img{
+  position: absolute;
+
   width: 100%;
-  border-radius: 50%;
+  height: 100%;
 }
 .testimonial .container .contentBox p{
   font-style: italic;
