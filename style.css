@@ -252,9 +252,36 @@
   padding: 100px;
   text-align: center;
 }
+.newBg {
+  background: linear-gradient(to top right, #faedcd, #e3d5ca);
+}
 .imgBx2 {
-  background: url(team.png);
+  background: url(contact.jpg);
   background-size: cover;
   background-position: center;
   width: 50%;
+}
+.inputBx {
+  margin-bottom: 40px;
+}
+.inputBx input,
+textarea {
+  width: 100%;
+  background: transparent;
+  padding: 0 10px;
+  font-weight: 300;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #162c3b;
+  border-bottom: 1px solid #fff;
+}
+.inputBx textarea {
+  min-height: 150px;
+}
+.inputBx input[type="submit"] {
+  border: 2px solid #fff;
+  width: 150px;
+  background: #dda15e;
 }
